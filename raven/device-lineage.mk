@@ -5,5 +5,6 @@
 #
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/raven/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/raven/overlay-everest
 
 $(call inherit-product, $(LOCAL_PATH)/device-lineage.mk)
