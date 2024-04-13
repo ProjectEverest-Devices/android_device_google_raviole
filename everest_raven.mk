@@ -6,7 +6,7 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/everest/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_raven.mk)
@@ -17,7 +17,12 @@ include device/google/raviole/raven/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6 Pro
-PRODUCT_NAME := lineage_raven
+PRODUCT_NAME := everest_raven
+
+#everest config
+WITH_GAPPS := true
+EVEREST_MAINTAINER := "PrabhatProxy"
+TARGET_SUPPORTS_BLUR := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
