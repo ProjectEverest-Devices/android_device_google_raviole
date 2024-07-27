@@ -31,8 +31,8 @@ TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=raven \
-    PRIVATE_BUILD_DESC="raven-user 14 AP1A.240505.004 11583682 release-keys"
+    PRIVATE_BUILD_DESC="raven-user 14 AP2A.240705.004 11875680 release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:14/AP1A.240505.004/11583682:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:14/AP2A.240705.004/11875680:user/release-keys
 
 $(call inherit-product, vendor/google/raven/raven-vendor.mk)
