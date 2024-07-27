@@ -196,9 +196,6 @@ PRODUCT_PACKAGES += \
     com.google.hardware.pixel.display-V4-ndk.vendor:64 \
     com.google.hardware.pixel.display-V9-ndk.vendor
 
-# Gcam
-include vendor/gcam/gcam.mk
-
 # Misc
 PRODUCT_PACKAGES += \
     libevent.vendor
