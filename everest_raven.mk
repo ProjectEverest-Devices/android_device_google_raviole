@@ -21,9 +21,8 @@ PRODUCT_NAME := everest_raven
 
 #everest config
 WITH_GAPPS := true
-EVEREST_MAINTAINER := Prabhat Maurya
+EVEREST_MAINTAINER := glikched
 TARGET_SUPPORTS_BLUR := true
-EVEREST_BUILD_TYPE := official
 EVEREST_UDFPS_ANIMATIONS := true
 
 # Boot animation
