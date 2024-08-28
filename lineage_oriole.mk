@@ -6,7 +6,7 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/everest/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
@@ -17,7 +17,7 @@ include device/google/raviole/oriole/device-lineage.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6
-PRODUCT_NAME := everest_oriole
+PRODUCT_NAME := lineage_oriole
 
 #everest config
 WITH_GAPPS := true
